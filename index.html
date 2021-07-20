@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Validação de CPF</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/style/validacao_cpf.css">
+  </head>
+
+  <body>
+    <img src="./assets/images/logo.svg" class="logo">
+    <h1 class="titulo">Validação de CPF</h1>
+    <p class="subtitulo">Digite abaixo apenas os números do seu CPF</p>
+    <div>
+        <input type="text" placeholder="Digite seu CPF" id="cpfInput" maxlength="11" />
+        <input type="button" value="Validar" onclick="verificarCPF()" />
+    </div>
+    <p id="resultadoValidacao"></p>
+    <div id="imagemValidacao"></div>
+
+    <script src="src/javascript/validacao_cpf.js"></script>
+  </body>
+</html>
+
